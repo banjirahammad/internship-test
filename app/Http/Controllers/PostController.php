@@ -9,7 +9,9 @@ class PostController extends Controller
 {
     public function index(){
 
-        $posts = Post::all();
+//        $posts = Post::all();
+        $posts = Post::query()->with('user')->latest()->paginate(6);
+
         // get here all post with who user created this post with eager loading.
         // compact the post data to welcome view.
 
