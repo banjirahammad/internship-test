@@ -19,7 +19,7 @@
 
     <section class="container text-light mb-2">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 bg-main-color rounded-3">
                 <div class="bg-main-color p-4 rounded-3">
                     I am <b>Md Banjir Ahammad</b>. I am originally from Nilphamari but I am now based in Mirpur, Dhaka. I have completed a B.Sc degree with a strong background from the "Central University of Science and Technology”.
                     <br>
